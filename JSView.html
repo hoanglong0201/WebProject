@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">JSS Course</title>
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style_view.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container-header">
+            <img src="assets/img/3.png" alt="" width="100px">
+
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+                <a href="report.html" id="report">Report</a>
+                <button class="btnSignIn-popup" id="signin" onclick="dangnhap()">Sign In</button>
+                <button class="btnSignout-popup" id="signout" onclick="dangxuat()">Sign Out</button>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <div class="container-main">
+            <div class="course-outline">
+                <h2>The Complete JavaScript Course 2024: From Zero to Expert!</h2>
+                <hr>
+                <div>The modern JavaScript course for everyone! Master JavaScript
+                    with projects, challenges and theory. Many courses in one!</div>
+                <hr>
+                <div><a class="course-lecture" id="0"
+                        href="https://www.youtube.com/embed/POPLF-Qc0OU?list=PLsyeobzWxl7rrvgG7MLNIMSTzVCDZZcT4"
+                        title="Lecture 0: Introduction">Lecture 0:</a> Introduction</div>
+                <div><a class="course-lecture" id="1"
+                        href="https://www.youtube.com/embed/TOkU5HxES1o?list=PLsyeobzWxl7rrvgG7MLNIMSTzVCDZZcT4"
+                        title="Lecture 1: Variables">Lecture 1:</a> Variables</div>
+                <div><a class="course-lecture" id="2"
+                        href="https://www.youtube.com/embed/nCwQY8inRvU?list=PLsyeobzWxl7rrvgG7MLNIMSTzVCDZZcT4"
+                        title="Lecture 2: Data Types">Lecture 2:</a> Data Types</div>
+                <div><a class="course-lecture" id="3"
+                        href="https://www.youtube.com/embed/wFiVtqe1osM?list=PLsyeobzWxl7rrvgG7MLNIMSTzVCDZZcT4"
+                        title="Lecture 3: Type Conversion & Coercion">Lecture 3:</a> Type Conversion & Coercion</div>
+                <div><a class="course-lecture" id="4"
+                        href="https://www.youtube.com/embed/otYwi_wW9Hk?list=PLsyeobzWxl7rrvgG7MLNIMSTzVCDZZcT4"
+                        title="Lecture 4: Arithmetic Operators">Lecture 4:</a> Arithmetic Operators</div>
+                <div><a class="course-lecture" id="5"
+                        href="https://www.youtube.com/embed/uuRJ1aCj8Ro?list=PLsyeobzWxl7rrvgG7MLNIMSTzVCDZZcT4"
+                        title="Lecture 5: Logical Operators">Lecture 5:</a> Logical Operators</div>
+                <div><a class="course-lecture" id="6"
+                        href="https://www.youtube.com/embed/o_iO9WuoWaM?list=PLsyeobzWxl7rrvgG7MLNIMSTzVCDZZcT4"
+                        title="Lecture 6: Conditional Statements">Lecture 6:</a> Conditional Statements</div>
+                <div><a class="course-lecture" id="7"
+                        href="https://www.youtube.com/embed/jcwTB9fBzP0?list=PLsyeobzWxl7rrvgG7MLNIMSTzVCDZZcT4"
+                        title="Lecture 7: For Loop">Lecture 7:</a> For Loop</div>
+                <div><a class="course-lecture" id="8"
+                        href="https://www.youtube.com/embed/h84MlHv6g4Q?list=PLsyeobzWxl7rrvgG7MLNIMSTzVCDZZcT4"
+                        title="Lecture 8: While Loop">Lecture 8:</a> While Loop</div>
+                <div><a class="course-lecture" id="9"
+                        href="https://www.youtube.com/embed/jwOW-qlJtxg?list=PLsyeobzWxl7rrvgG7MLNIMSTzVCDZZcT4"
+                        title="Lecture 9: Functions">Lecture 9:</a> Functions</div>
+                <hr>
+                <div><a href="https://www.w3schools.com/js/" target="_blank">References</a></div>
+                <div><a href="#" id="quiz-start">Quiz</a></div>
+            </div>
+            <div class="course-view">
+                <h2 id="course-title">Lecture 0: Introduction</h2>
+                <div id="course-view-main">
+                    <div class="vid">
+                        <iframe width="80%" height="500" id="course-display"
+                            src="https://www.youtube.com/embed/POPLF-Qc0OU?list=PLsyeobzWxl7rrvgG7MLNIMSTzVCDZZcT4"
+                            title="0"></iframe>
+                    </div>
+                    <div class="course-view-action">
+                        <button class="course-view-action-previous">Previous</button>
+                        <button class="course-view-action-next">Next</button>
+                    </div>
+                </div>
+
+                <!-- Quiz -->
+                <div id="course-view-quiz" class="hide">
+                    <div class="container">
+                        <div id="quiz"></div>
+                        <div id="result" class="result"></div>
+                        <button id="submit" class="button">Submit</button>
+                        <div id="ret-btn">
+                            <button id="retry" class="button hide">Retry</button>
+                            <button id="showAnswer" class="button hide">Show Answer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/view.js"></script>
+    <script src="assets/js/quiz.js"></script>
+
+</body>
+
+</html>

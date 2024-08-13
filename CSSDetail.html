@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">CSS Course</title>
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style_detail.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container-header">
+            <img src="assets/img/3.png" alt="" width="100px">
+
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+                <a href="report.html" id="report">Report</a>
+                <button class="btnSignIn-popup" id="signin" onclick="dangnhap()">Sign In</button>
+                <button class="btnSignout-popup" id="signout" onclick="dangxuat()">Sign Out</button>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <div class="container-main">
+            <div class="preview-course-container">
+                <iframe width="100%" height="220px" src="https://www.youtube.com/embed/R6plN3FvzFY?list=PL_-VfJajZj0U9nEXa4qyfB4U5ZIYCMPlz">
+                </iframe>
+                <div class="course-action-container">
+                    <h1 class="course-price">₫5,999,000</h1>
+                    <button type="button" class="course-action-add">Enroll</button>
+                    <!-- <button type="button" class="course-action-buy">Buy now</button> -->
+                    <p class="course-action-note">30-Day Money Back Gurantee</p>
+                </div>
+                <div class="course-preview-container">
+                    <h4>This course includes:</h4>
+                    <p>22.5 hours on-demand video</p>
+                    <p>Assignments</p>
+                    <p>31 articles</p>
+                    <p>303 downloadable resources</p>
+                    <p>Access on mobile and TV</p>
+                    <p>Full lifetime access</p>
+                    <p>Closed captions</p>
+                    <p>Certificate of completion</p>
+                </div>
+                <div class="course-more-information">
+                    <hr>
+                    <h3>Does not have account yet?</h3>
+                    <p>Click the button bellow to register and learn from today</p>
+                    <button type="button" class="course-more-register" id="create-account">Create an account</button>
+                </div>
+            </div>
+            <div class="course-introduction-container">
+                <span><a href="index.html">Home ></a><a href="courses.html"> Courses ></a><a href=""> CSS Course</a></span>
+                <h1>CSS - The Complete Guide 2023 (incl. Flexbox, Grid & Sass)</h1>
+                <p class="course-introduction-description">Learn CSS for the first time or brush up your CSS skills and dive in even deeper. EVERY web developer has to know CSS.</p>
+                <div class="course-introduction-rating">Bestseller</div>
+                <p>Created by <a href="#" id="course-created-user">Bao Dep Trai</a></p>
+            </div>
+            <div class="course-detail-container">
+                <h2>What you'll learn</h2>
+                <div class="course-learn-container">
+                    <ul class="course-learn-list">
+                        <li class="course-learn-list-item">Learn why CSS is amazing, not something to be afraid of!</li>
+                        <li class="course-learn-list-item">Flexbox, grid, animations, transitions, fonts, media queries and much more - it's all included!</li>
+                        <li class="course-learn-list-item">Build beautiful websites which don't just contain great content but also look good</li>
+                        <li class="course-learn-list-item">Use basic as well as advanced CSS features</li>
+                        <li class="course-learn-list-item">Understand the concepts and theory behind CSS and certain CSS features</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="footer">
+        <div class="container_imglogo">
+            <img src="/assets/img/3.png" alt="" width="70px">
+        </div>
+        <h2>Welcome to <font color="orange">WEBCOPM</font></h2>
+        <div class="foot_item">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="mail-outline"></ion-icon>
+        </div>
+        <div class="container-copy">
+            <p>Copyright © 2023 WEBCOPM – All rights reserved</p>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/detail.js"></script>
+
+</body>
+
+</html>

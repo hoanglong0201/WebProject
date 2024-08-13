@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/style_courses.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container-header">
+            <img src="assets/img/3.png" alt="" width="100px">
+
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+                <a href="report.html" id="report">Report</a>
+                <button class="btnSignIn-popup" id="signin" onclick="dangnhap()">Sign In</button>
+                <button class="btnSignout-popup" id="signout" onclick="dangxuat()">Sign Out</button>
+            </nav>
+
+        </div>
+    </header>
+    <div class="container-main">
+        <div id="available-courses">
+            <h1>Your courses:</h1>
+            <div class="courses-container" id="your-available-courses">
+                <div class="course-card-holder">
+                    <img class="course-card-img" src="assets/img/logoHTML.png" alt="html">
+                    <div class="course-detail">
+                        <h2 class="course-card-title">HTML for beginner</h2>
+                        <p class="course-card-description">This course is about introduction to HTML language</p>
+                        <button class="course-card-action explore-HTML-course" type="button">Explore</button>
+                    </div>
+                </div>
+                <div class="course-card-holder">
+                    <img class="course-card-img" src="assets/img/css3-logo.png" alt="html">
+                    <div class="course-detail">
+                        <h2 class="course-card-title">CSS for beginner</h2>
+                        <p class="course-card-description">This course is about introduction to CSS language</p>
+                        <button class="course-card-action explore-CSS-course" type="button">Explore</button>
+                    </div>
+                </div>
+                <div class="course-card-holder">
+                    <img class="course-card-img" src="assets/img/logoJs.png" alt="html">
+                    <div class="course-detail">
+                        <h2 class="course-card-title">JS for beginner</h2>
+                        <p class="course-card-description">This course is about introduction to JS language</p>
+                        <button class="course-card-action explore-JSS-course" type="button">Explore</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1>Our available courses:</h1>
+        <button class="admin-add-course">Add More</button>
+        <div class="courses-container" id="courses-db">
+            <div class="course-card-holder">
+                <img class="course-card-img" src="assets/img/logoHTML.png" alt="html">
+                <div class="course-detail">
+                    <h2 class="course-card-title">HTML for beginner</h2>
+                    <p class="course-card-description">This course is about introduction to HTML language</p>
+                    <button class="course-card-action explore-HTML-course" type="button">Explore</button>
+                </div>
+            </div>
+            <div class="course-card-holder">
+                <img class="course-card-img" src="assets/img/css3-logo.png" alt="html">
+                <div class="course-detail">
+                    <h2 class="course-card-title">CSS for beginner</h2>
+                    <p class="course-card-description">This course is about introduction to CSS language</p>
+                    <button class="course-card-action explore-CSS-course" type="button">Explore</button>
+                </div>
+            </div>
+            <div class="course-card-holder">
+                <img class="course-card-img" src="assets/img/logoJs.png" alt="html">
+                <div class="course-detail">
+                    <h2 class="course-card-title">JS for beginner</h2>
+                    <p class="course-card-description">This course is about introduction to JS language</p>
+                    <button class="course-card-action explore-JSS-course" type="button">Explore</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container_imglogo">
+            <img src="/assets/img/3.png" alt="" width="70px">
+        </div>
+        <h2>Welcome to <font color="orange">WEBCOPM</font></h2>
+        <div class="foot_item">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="mail-outline"></ion-icon>
+        </div>
+        <div class="container-copy">
+            <p>Copyright © 2023 WEBCOPM – All rights reserved</p>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/courses.js"></script>
+    <script src="assets/js/admin.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,146 @@
+.container-main {
+    position: relative;
+}
+
+.preview-course-container {
+    background: #fff;
+    top: 50px;
+    left: 70%;
+    position: absolute;
+    width: 350px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.course-introduction-container {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 100px 610px 100px 200px;
+    width: 100%;
+    background-color: #2d2f31;
+    height: 350px;
+}
+
+.course-introduction-container a {
+    color: #c0c4fc;
+    font-weight: bold;
+}
+
+.course-introduction-description {
+    font-size: 20px;
+    margin: 15px auto 20px;
+}
+
+.course-introduction-rating {
+    background-color: #eceb98;
+    width: fit-content;
+    font-size: small;
+    color: #3d3c0a;
+    font-weight: bold;
+    padding: 3px 10px;
+    margin-bottom: 15px;
+}
+
+#course-created-user {
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.course-action-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.course-action-add,
+.course-action-buy,
+.course-action-preview  {
+    margin-top: 10px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0px;
+
+}
+
+.course-action-add {
+    margin-top: 15px;
+    background-color: #a435f0;
+    color: #fff;
+}
+
+.course-action-preview{
+    background-color: #2dbf64;
+    color: #fff;
+}
+.course-action-buy {
+    background-color: #fff;
+    border: 1px solid #2d2f31;
+    margin-bottom: 10px;
+}
+
+.course-action-add:hover{
+    background-color: #8710d8;
+}
+.course-action-buy:hover{
+    background-color: #e3e7ea;
+}
+.course-action-preview:hover{
+    background-color: rgb(25, 168, 80);
+}
+.course-action-note {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.course-preview-container, .course-more-information {
+    padding: 0px 20px 20px 20px;
+}
+
+.course-preview-container>p {
+    margin: 5px;
+}
+.course-detail-container{
+    margin: 30px 600px 100px 200px;
+    padding: 20px;
+    border: 1px solid #d1d7dc;
+}
+
+.course-learn-list{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.course-learn-list-item{
+    width: 45%;
+    margin: 10px;
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+  }
+  
+ul li:before {
+    content: '✓ ';
+  }
+
+  .course-more-information > h3{
+    margin: 10px auto;
+  }
+
+  .course-more-register{
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0px;
+  }
+
+  .course-more-register:hover{
+    background-color: #ddd;
+  }

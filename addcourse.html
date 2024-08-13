@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Courses</title>
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/style_addcourses.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+</head>
+
+<body>
+    <header id="header">
+        <div class="container-header">
+            <img src="assets/img/3.png" alt="" width="100px" />
+
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+                <a href="report.html" id="report">Report</a>
+                <button class="btnSignIn-popup" id="signin" onclick="dangnhap()">
+                    Sign In
+                </button>
+                <button class="btnSignout-popup" id="signout" onclick="dangxuat()">
+                    Sign Out
+                </button>
+            </nav>
+        </div>
+    </header>
+    <div class="container-main">
+        <div id="available-courses">
+            <h1>Add a new course:</h1>
+            <div class="courses-container">
+                <div class="content">
+                    <form action="#" id="form-course">
+                        <label for="course-title">Course Title</label>
+                        <input type="text" name="course-title" id="course-title" placeholder="Enter course title" required/>
+                        <label for="course-description">Course Description</label>
+                        <input type="text" name="course-description" id="course-description"
+                            placeholder="Enter course description" required/>
+                        <input type="submit" value="Submit" />
+                    </form>
+                </div>
+                <div class="content">
+                    <p>Default course image:</p>
+                    <img src="assets/img/default.jpg" alt="default">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container_imglogo">
+            <img src="/assets/img/3.png" alt="" width="70px">
+        </div>
+        <h2>Welcome to <font color="orange">WEBCOPM</font></h2>
+        <div class="foot_item">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="mail-outline"></ion-icon>
+        </div>
+        <div class="container-copy">
+            <p>Copyright © 2023 WEBCOPM – All rights reserved</p>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/admin.js"></script>
+</body>
+
+</html>

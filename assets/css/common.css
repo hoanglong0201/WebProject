@@ -1,0 +1,113 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    margin-top: 100px;
+}
+
+.container-header {
+    background-color: #49BBBD;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 70px;
+    height: 80px;
+    line-height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px;
+}
+
+.nav a {
+    color: #fff;
+    position: relative;
+    margin-left: 40px;
+}
+
+.nav a:hover {
+    color: rgba(37, 38, 65, 1);
+}
+
+.nav a:hover::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background-color: rgba(37, 38, 65, 1);
+    height: 2px;
+    top: 20px;
+    left: 0px;
+}
+
+.nav button {
+    width: 100px;
+    height: 40px;
+    border-radius: 80px;
+    border: 1px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.nav .btnSignout-popup, .nav .btnSignIn-popup {
+    margin-left: 40px;
+}
+
+.btnSignout-popup, .btnSignIn-popup {
+    background-color: rgba(171, 228, 229, 0.6);
+    color: #fff;
+}
+
+.btnSignout-popup:hover, .btnSignIn-popup:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+}
+
+#footer {
+    margin-top: 20rem;
+    position: relative;
+    bottom: 0px;
+    height: 30vh;
+    background-color: rgba(37, 38, 65, 1);
+}
+
+.add-course {
+    padding: 10px 25px;
+    font-weight: bold;
+    background-color: #1fda6f;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.add-course:hover {
+    background-color: #1ac263;
+}
+
+.admin-del-course {
+    padding: 10px 25px;
+    font-weight: bold;
+    background-color: #f86a67;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+.admin-del-course:hover {
+    background-color: #f02926;
+}
+
+.remove-course {
+    padding: 10px 25px;
+    font-weight: bold;
+    background-color: #8f23aa;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.remove-course:hover {
+    background: #5d176e;
+}

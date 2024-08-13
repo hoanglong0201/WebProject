@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">HTML Course</title>
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style_detail.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container-header">
+            <img src="assets/img/3.png" alt="" width="100px">
+
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+                <a href="report.html" id="report">Report</a>
+                <button class="btnSignIn-popup" id="signin" onclick="dangnhap()">Sign In</button>
+                <button class="btnSignout-popup" id="signout" onclick="dangxuat()">Sign Out</button>
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <div class="container-main">
+            <div class="preview-course-container">
+                <iframe width="100%" height="220px" src="https://www.youtube.com/embed/chj6R6LlTUg?list=PLd8OdiciAE1SwMCtd6XgYp-ei1or6sb1r">
+                </iframe>
+                <div class="course-action-container">
+                    <h1 class="course-price">₫699,000</h1>
+                    <button type="button" class="course-action-add">Enroll</button>
+                    <!-- <button type="button" class="course-action-buy">Buy now</button> -->
+                    <p class="course-action-note">30-Day Money Back Gurantee</p>
+                </div>
+                <div class="course-preview-container">
+                    <h4>This course includes:</h4>
+                    <p>62 hours on-demand video</p>
+                    <p>7 coding exercises</p>
+                    <p>66 articles</p>
+                    <p>118 downloadable resources</p>
+                    <p>Access on mobile and TV</p>
+                    <p>Full lifetime access</p>
+                    <p>Certificate of completion</p>
+                </div>
+                <div class="course-more-information">
+                    <hr>
+                    <h3>Does not have account yet?</h3>
+                    <p>Click the button bellow to register and learn from today</p>
+                    <button type="button" class="course-more-register" id="create-account">Create an account</button>
+                </div>
+            </div>
+            <div class="course-introduction-container">
+                <span><a href="index.html">Home ></a><a href="courses.html"> Courses ></a><a href=""> HTML Course</a></span>
+                <h1>The Complete 2023 Web Development Bootcamp</h1>
+                <p class="course-introduction-description">Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps</p>
+                <div class="course-introduction-rating">Bestseller</div>
+                <p>Created by <a href="#" id="course-created-user">Bao Dep Trai</a></p>
+            </div>
+            <div class="course-detail-container">
+                <h2>What you'll learn</h2>
+                <div class="course-learn-container">
+                    <ul class="course-learn-list">
+                        <li class="course-learn-list-item">Build 16 web development projects for your portfolio, ready to apply for junior developer jobs.</li>
+                        <li class="course-learn-list-item">After the course you will be able to build ANY website you want.</li>
+                        <li class="course-learn-list-item">Work as a freelance web developer.</li>
+                        <li class="course-learn-list-item">Master backend development with Node</li>
+                        <li class="course-learn-list-item">Learn the latest technologies, including Javascript, React, Node and even Web3 development.</li>
+                        <li class="course-learn-list-item">Build fully-fledged websites and web apps for your startup or business.</li>
+                        <li class="course-learn-list-item">Master frontend development with React</li>
+                        <li class="course-learn-list-item">Learn professional developer best practices.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="footer">
+        <div class="container_imglogo">
+            <img src="/assets/img/3.png" alt="" width="70px">
+        </div>
+        <h2>Welcome to <font color="orange">WEBCOPM</font></h2>
+        <div class="foot_item">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="mail-outline"></ion-icon>
+        </div>
+        <div class="container-copy">
+            <p>Copyright © 2023 WEBCOPM – All rights reserved</p>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/detail.js"></script>
+
+</body>
+
+</html>
